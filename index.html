@@ -1,1 +1,74 @@
-Hello World! This is my website.
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Welcome to Panda La La Land" />
+    <title>Welcome to Panda La La Land</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+        <div class="nav-sec">
+            <nav>
+                <a href="table.html">Table</a>
+                <a href="contact.html">Contacts</a>
+                <a href="resume.html">My Resume</a>
+            </nav>
+        </div>
+
+        <div class="lang-sec">
+            <select id="lang-sec" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="ch">中国</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="main">
+      <section>
+        <h1 class="header_style">Welcome to Panda La La Land</h1>
+        <p>This is Kevin's website mainly just yapping about Panda!</p>
+        <a href="form.html">Donation Form</a>
+      </section>
+
+      <section class="about">
+        <div class="about-image">
+          <img src="sleepy.jpg" alt="hehe" />
+        </div>
+        <div class="about-text">
+          <p>
+            Pandas have a special adaptation in their wrists—a pseudo-thumb—that
+            helps them grip bamboo, their primary food source. This "thumb" is
+            actually an extended wrist bone, allowing pandas to strip bamboo
+            leaves and eat them efficiently!
+          </p>
+        </div>
+      </section>
+
+      <section class="fun-facts">
+        <p><strong>Fun Fact:</strong></p>
+          <ul>
+            <li>Pandas are actually omnivores</li>
+            <li>They spend a lot of time eating</li>
+            <li>Pandas have an extra "thumb"</li>
+            <li>Newborn pandas are tiny</li>
+            <li>Pandas love to roll around</li>
+          </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Personal Website Name | All Rights Reserved</p>
+      <p>
+        More About Me: <a href="portfolio.html">Portfolio</a> 
+        <a href="https://www.instagram.com/kvn._.03/">Instagram</a>
+      </p>
+    </footer>
+  </body>
+</html>
+
+
+<!-- function changeLanguage(){
+} -->

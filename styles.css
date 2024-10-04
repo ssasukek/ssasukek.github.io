@@ -1,0 +1,98 @@
+body {
+  font-family: "Helvetica", "Arial", "sans-serif";
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(203, 221, 110);
+}
+
+header {
+  background-color: rgb(154, 208, 76);
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-sec {
+  font-weight: bold;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.nav-sec a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 35px;
+  border-radius: 15px;
+}
+
+.main {
+  margin: 20px auto;
+}
+
+.main h1 {
+  font-size: 2em;
+  margin-bottom: auto;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.about-text {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.about-image {
+  max-width: fit-content;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.fun-facts {
+  text-align: center;
+}
+
+.fun-facts p {
+  margin-bottom: 10px;
+}
+
+.fun-facts ul {
+  padding-left: 20px;
+  line-height: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+footer {
+  background-color: rgb(154, 208, 76);
+  text-align: center;
+}
+
+footer p {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.languages {
+  display: flex;
+  text-align: left;
+  background-color: black;
+  margin: auto;
+}
+
+.lang-sec {
+  display: flex;
+  justify-content: end;
+}
